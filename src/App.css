@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+	background-color: rgb(255, 240, 240);
+}
+
+#header {
+	margin: 50px 0 10px 0;
+	font-size: 100px;
+	color: rgb(255, 180, 200);
+	text-align: center;
+}
+
+.demo1 {
+	background-color: rgb(255, 255, 255);
+	margin: auto;
+	width: 600px;
+	box-shadow: 0 0 30px #c8c8c8;
+}
+
+.demo1 ul {
+	padding: 0;
+}
+
+.demo1 ul li {
+	list-style-type: none;
+	font-size: 20px;
+	padding: 10px 0 10px 10px;
+}
+
+.li:hover > .delete{
+	display: inline-block;
+}
+.li:hover > .modify{
+	display: inline-block;
+}
+
+.new {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 6px;
+}
+
+.fuxuan {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 6px;
+}
+
+.font {
+	margin: 10px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.modify{
+	width: 15px;
+	height: 15px;
+	display: none;
+	cursor: pointer;
+	float: right;
+	margin: 10px 10px 0px 0px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.delete{
+	width: 15px;
+	height: 15px;
+	display: none;
+	cursor: pointer;
+	float: right;
+	margin: 10px 20px 0px 0px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.hr {
+	width: 100%;
+	border: 1px solid #cccccc;
+	margin-right: 30px;
+}
+
+.demo2 {
+	height: 40px;
+	text-align: center;
+	color: #aaaaff;
+}
+
+.num {
+	margin-left: 10px;
+	padding: 0 10px 0 10px;
+	float: left;
+}
+
+.Clear {
+	float: right;
+	margin-right: 10px;
+}
+
+.demo2 span{
+	padding: 0 10px 0 10px;
+	color: #aaaaff;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.demo2 span:hover {
+	border: 1px solid #c8c8c8;
+	color: #8ec9ff;
+}
